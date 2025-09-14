@@ -336,12 +336,12 @@ margin-left: 1rem;
     .hero-buttons{
         flex-direction: column;
     }
-    .btn{ width: 70%;
-         text-align:center;
-         align-content: center;
-        align-items:center;
-        marigin-left:30px}
-    
+    btn {
+    width: 70%;
+    margin: 0 auto;   /* This will center the buttons */
+    display: block;   /* Make button behave like block element for margin centering */
+    text-align: center;
+  }
     .whole, .contact-content{
         grid-template-columns: 1fr;
     }
