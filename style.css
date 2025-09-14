@@ -340,8 +340,7 @@ margin-left: 1rem;
     width: 70%;
     margin: 0 auto;   /* This will center the buttons */
     display: block;   /* Make button behave like block element for margin centering */
-    text-align: center;
-        justify-content:center;
+    align-items:center;
   }
     .whole, .contact-content{
         grid-template-columns: 1fr;
