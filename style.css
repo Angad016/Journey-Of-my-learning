@@ -328,24 +328,4 @@ margin-left: 1rem;
   animation-timing-function: ease-out;
   
 }
-.nav-links {
-  display: flex;
-  list-style: none;
-  /* Horizontal layout by default */
-  justify-content: center; /* This centers links horizontally */
-}
-
-/* On small screens (mobile) */
-@media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column; /* Make links stack vertically */
-    align-items: center; /* Center links horizontally */
-    gap: 10px; /* Add space between links */
-  }
-  .nav-links a {
-    display: block; /* Make each link take full line */
-    width: 100%; /* Optional: full width */
-    text-align: center; /* Center text inside each link */
-  }
-}
 
