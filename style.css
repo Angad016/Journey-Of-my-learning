@@ -338,9 +338,9 @@ margin-left: 1rem;
     }
     btn {
     width: 70%;
-    margin: 0 auto;   /* This will center the buttons */
+    margin: 0 15px;   /* This will center the buttons */
     display: block;   /* Make button behave like block element for margin centering */
-    align-items:center;
+    text-align:center 
   }
     .whole, .contact-content{
         grid-template-columns: 1fr;
