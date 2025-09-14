@@ -337,9 +337,9 @@ margin-left: 1rem;
         flex-direction: column;
     }
     .btn{ width: 80%;
-         
+         text-align:center;
     
-    align-items:center ;}
+    align-content:center ;}
     
     .whole, .contact-content{
         grid-template-columns: 1fr;
