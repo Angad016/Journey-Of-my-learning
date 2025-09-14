@@ -337,7 +337,7 @@ margin-left: 1rem;
     }
     .btn{ width: 80%;
     text-align: center;}
-    .whole,.contact-content{
+    .whole, .contact-content{
         grid-template-columns: 1fr;
     }
     .nav-links{ gap: 1rem;}
@@ -350,6 +350,7 @@ margin-left: 1rem;
         padding: 0 15px;
     }
     .nav-links{
+        display:flex;
         flex-direction: column;
         text-align:center;
         gap: 0.5rem;
