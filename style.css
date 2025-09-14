@@ -337,7 +337,8 @@ margin-left: 1rem;
         flex-direction: column;
     }
     .btn{ width: 80%;
-    text-align: center;
+         
+    
     align-items:center ;}
     
     .whole, .contact-content{
