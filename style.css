@@ -336,9 +336,11 @@ margin-left: 1rem;
     .hero-buttons{
         flex-direction: column;
     }
-    .btn{ width: 80%;
+    .btn{ width: 70%;
          text-align:center;
-         align-content: center;}
+         align-content: center;
+        align-items:center;
+        marigin-left:30px}
     
     .whole, .contact-content{
         grid-template-columns: 1fr;
